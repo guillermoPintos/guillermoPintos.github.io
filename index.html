@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="styles.css">
+    
+    <title>Challenge Encriptador Oracle-Alura</title>
+</head>
+<body>
+    <marquee class="titulo-principal">Encriptador Alura Challenge </marquee>
+    <main class="main">
+
+        <span class="subtitulo">Mensaje a encriptar</span>
+        <section class="formulario-ingreso">
+        <form>
+
+            <textarea cols="70" rows="10" class="texto-formulario" type="text" name="texto-ingresado" placeholder="Ingrese el texto a encriptar" id="texto-encriptar"></textarea>
+          
+            <input type="button" class="boton" value="Encriptar" id="boton-Encriptado">
+            <input type="button" class="boton" value="Desencriptar" id="boton-Desencriptado">
+        </form>
+    </section>
+
+    <section class="formulario-ingreso">
+        <span class="subtitulo"> Mensaje final </span>
+
+        <textarea cols="70" rows="10" type="text" class="texto-formulario" value="" id="mensaje"></textarea>
+        <input type="submit" class="boton" value="copiar texto" id="copiado">
+
+
+    </section>
+    </main>
+        <footer>
+            
+            <span class="copyright">&copy Copyright Pintos Guillermo - 2022</span>
+        </footer>
+</body>
+
+<script src="javaScript.js"></script>
+</html>

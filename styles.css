@@ -1,0 +1,86 @@
+body{
+    font-family: 'Roboto Mono', monospace;
+    background-image: url(https://fondosmil.com/fondo/28454.jpg);
+    width: 100%;
+    
+}
+
+.titulo-principal{
+        
+    background-color: black;
+    background-size: auto auto;
+    color: rgb(252, 252, 32);
+    font-size: 50px;   
+    direction: left;
+    behavior: scroll;
+    margin-bottom: 5%;
+}
+
+.subtitulo {
+    background-color: black;
+    background-size: auto auto;
+    font-size: 40px;
+    color: rgb(252, 252, 32);
+    margin-left: 20px;   
+}
+.main{
+    
+    width: 940px;
+    margin: 0 auto;    
+    color:white;
+}
+
+.texto-formulario{
+    background-color: #030703;
+    color:rgb(252, 252, 32);
+    border-radius: 0.5em;
+    height: auto;
+    display: block; 
+    font-size: 35px;
+    border:1px solid #999999;
+    width:85%;
+    display: block;
+    margin: 1% 1% 0 20px;
+    padding: 10px 25px;
+}
+
+.peticion{
+    background-color: black;
+    margin: 5px 20px 25px 25px;
+    background-size: auto auto;
+    font-size: 25px;
+    color: rgb(252, 252, 32);
+    margin: 5px 20px 0px 25px;
+}
+
+.boton{
+    width: 15%;
+    padding: 5px;
+    margin: 1% 5px 5px 25px;
+    font-size: 15px;
+    font-weight: bold;
+    color:rgb(252, 252, 32);
+    background: rgb(11, 14, 12);
+    border:none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor:pointer;
+}
+
+.boton:hover{
+    background: rgb(16, 36, 19);
+    transform: scale(1.2);
+}
+
+footer{
+    text-align: center;
+    padding:40px;
+}
+
+.copyright{
+    background-color: black;
+    background-size: auto auto;
+    color: rgb(252, 252, 32);
+    font-size: 13px;
+    margin:20px;
+}
